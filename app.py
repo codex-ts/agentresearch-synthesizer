@@ -470,7 +470,7 @@ with left:
 
         recipient = st.text_input(
             "Recipient Email",
-            value="tsirlapu@Gitam.in",
+            value=os.getenv("EMAIL_USER", ""),
             placeholder="recipient@example.com",
         )
 
