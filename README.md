@@ -115,7 +115,9 @@ Run basic component tests:
 
 ```bash
 python tests.py
+```
 
+---
 
 ## 🖥️ Demo
 
